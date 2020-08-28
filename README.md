@@ -6,7 +6,7 @@ A repository for modeling and analysing the current COVID pandemic. Below is a d
 A brief Jupyter notebook for exploratory Analysis of COVID data.
 
 ## Part 2 - Simple Model of American Covid Deaths.ipynb
-Notebook for a simple model using that uses poisson and bernoulli random variables to try to model American Coronavirus deaths: 
+Notebook for a simple model using that uses poisson and bernoulli random variables to try to model American Coronavirus deaths: <br/> 
 ![equation](https://latex.codecogs.com/gif.latex?%5Chat%7Bd_%7Bn%7D%7D%3D%5Csum_%7Bi%3D1%7D%5E%7Bn%7D%20p_%7Bdeath%7D%20%5Ccdot%20possion%28n-i%29%20%5Ccdot%20c%28i%29) <br/>
 Where c(i) is the new cases in America for day i. This model is trained using stochastic gradient descent
 
